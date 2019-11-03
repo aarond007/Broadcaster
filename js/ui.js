@@ -17,6 +17,7 @@ subdiv.appendChild(btn);
 const task=document.querySelector('.tasks');
 div.appendChild(document.querySelector('.task-title'));
 div.appendChild(task);
+div.appendChild(document.querySelector('.footer'));
 // default
 let deft="redflag";
 // red flag or intervention
