@@ -9,6 +9,8 @@
 }
 .top{
 	background-color:black;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
 }
 .title{
 	line-height: 100px;
@@ -53,7 +55,7 @@
 }
 .signup{
 	background-color: white;
-	height:75%;
+	height:68vh;
 	width:35%;
 	border-radius: 10px;
 	border-color:black;
@@ -102,16 +104,20 @@ fieldset{
   	background-position: center;
   	background-repeat: no-repeat;
   	background-size: cover;
-	height:68vh;
+	height:500px;
 	clear:both;
+	margin-bottom: 4px;
 }
 /******* user menu-content *******/
 .menucontent{
+	position: -webkit-sticky;
+ 	position: sticky;
+  	top: 0;
 	margin-top: 2px;
 	width: 25%;
 	float:left;
 	margin-right: 2%;
-	height: 78vh;
+	height:500px;
 	border-right: 4px solid white;
 	
 }
@@ -219,4 +225,109 @@ textarea{
 }
 .parent {
     width: 300px;
+}
+/*---- footer -----*/
+.footer{
+	height:11.5vh;
+	background-color: black;
+	clear:both;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+/* red flaig container*/
+.redflagcontainer{
+	float:left;
+	display:none;
+	width:72%;
+	height:480px;
+	margin-top: 10px;	
+	overflow: hidden;
+	overflow: auto;
+}
+.redflaglist{
+	background-color:white;
+	height:15%;
+	width: 99%;
+	margin:2% 0;
+	border-radius: 10px;
+	overflow: hidden;
+}
+.redtitle{
+	width:90%;
+	font-weight: bold;
+	margin:10px 20px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.reddesc{
+	clear:both;
+	margin: 0px 20px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	cursor:pointer;
+
+}
+.viewredflag{
+	display:none;
+}
+.message{
+	width:72%;
+	background-color:white;
+	margin:2% 0;
+	border-radius: 10px;
+	float:left;
+	margin-bottom: 10px;
+}
+.messagetitle{
+	font-weight: bold;
+	margin: 10px 20px;
+	font-size: 20px;
+	text-align: center;
+	text-decoration: underline;
+	position:sticky;
+}
+.messagecontent{
+	overflow: hidden;
+	overflow: auto;
+	margin:0 20px;
+	height: 280px;
+}
+.changestatus{
+	float:left;
+	background-color: white;
+	border-radius: 10px;
+	width:72%;
+	display:none;
+}
+.status{
+	margin:20px;
+	margin-bottom: 0px;
+}
+.status select{
+	width:100%;
+}
+.btncomfirm{
+	width:100%;
+}
+.flagedit{
+	float:left;
+	background-color: white;
+	border-radius: 10px;
+	width:72%;
+}
+.edit{
+	width:48%;
+	background-color: orange;
+	margin-right:1%;
+	padding: 10px 0px;
+	margin-bottom:10px;
+
+}
+.delete{
+	padding: 10px 0px;
+	margin-left:1%;
+	width:48%;
+	background-color: red;
+	margin-bottom:10px;
 }
