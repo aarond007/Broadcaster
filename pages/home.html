@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>home</title>
+	<link rel="stylesheet" type="text/css" href="../css/LoginStyleSheet.css">
+</head>
+<body>
+	<div class="task-title">
+		<div class="flag-title red">red-flag</div>
+		<div class="flag-title int">intervention</div>
+	</div>
+	<div class="tasks">
+		<div class="taskcontent">
+			<div class="menucontent">
+			<button class="btn btnnew"></button>
+				<ul class="redflagmenucontent">
+					<li class="redflags">red-flag resolved (0)</li>
+					<li class="redflags">red-flag  under investigation (0)</li>
+					<li class="redflags">red-flag rejected (0)</li>
+					<li class="redflags">list</li>
+				</ul>
+			</div>
+		<div class="redflagcontent">
+			<div class="createredflag">
+				<div class="flag">
+				<form>
+					<div class="redflaginput">
+						<div class="ltitle"><label>Title</label></div>
+						<div ><input type="text" placeholder="title" class="inputs"></div>	
+					</div>
+					<div class="redflaginput">
+						<div class="ltitle"><label>Description</label></div>
+						<div><textarea class="inputs" placeholder="write here"></textarea></div>
+					</div>
+					<div class="redflaginput">
+						<div  class="ltitle"><label>Add file</label></div>
+						<div><input type="file" class="inputs"></div>
+					</div>
+					<div class="redflaginput">
+						<div  class="ltitle"><label>Latitude</label></div>
+						<div><input type="text" placeholder="latitude" class="inputs"></div>
+					</div>
+					<div class="redflaginput">
+						<div  class="ltitle"><label>Longitude</label></div>
+						<div><input type="text" placeholder="longitude" class="inputs"></div>
+					</div>	
+					<button class="btn redflagbtn">Create red-flag</button>		
+				</form>		
+				</div>		
+			</div>
+		</div>
+		<div class="redflagcontainer">
+				<div class="redflaglist">
+					<div class="redtitle">
+						
+					</div>
+					<div class="reddesc">
+						
+					</div>
+				</div>
+			</div>
+			<div class="viewredflag">
+				<div class="message">
+					<div class="messagetitle">
+						
+					</div>
+					<div class="messagecontent">
+						
+					</div>
+				</div>
+				<div class="changestatus">
+					<div class="status">
+						<select class="inputs"> 
+							<option value="" selected disabled>Change Status</option>
+							<option value="">under investigation</option>
+							<option>rejected</option>
+							<option>resolved</option>
+						</select>
+						<button class="btn signupbtn btncomfirm">Comfirm</button>
+					</div>
+				</div>
+				<div class="flagedit">
+					<div class="status">
+						<button class="btn edit">Edit</button>
+						<button class="btn delete">Delete</button>
+					</div>
+				</div>
+	</div>
+	<div class="footer">
+		
+	</div>
+<script src="../js/ui.js"></script>
+</body>
+</html>

@@ -1,0 +1,333 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+/* title css */
+.container{
+	margin:auto;
+	width: 80%;
+}
+.top{
+	background-color:black;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+}
+.title{
+	line-height: 100px;
+	margin-left:50px;
+	color:white;
+	font-family: Bernard MT Condensed;
+	font-size: 50px
+}
+.menu{
+	float:right;
+}
+.btn{
+	color: white;
+	background-color: green;
+  	border: none;
+  	border-radius: 4px;
+	cursor: pointer;
+}
+/* sign in css */
+.signin{
+	float:right;
+	line-height: 100px;
+}
+
+.signinbtn{
+	padding: 5px 20px;
+	margin-right:35px;
+}
+.signinput{
+	padding: 3px 5px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+/* sign up css */
+.singupContainer{
+	height:580px;
+	background-image: url("../images/wallpaper.jpg");
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+.signup{
+	background-color: white;
+	height:68vh;
+	width:35%;
+	border-radius: 10px;
+	border-color:black;
+	border: 2px solid;
+	margin-top: 10px;
+	float:right;
+	margin-right:30px;
+}
+.signupinput{
+	padding: 10px 20px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	width:90%;
+	margin:8px 0px;
+}
+.signupform{
+	text-align: center;
+	
+}
+.signupbtn{
+	padding: 10px 20px;
+	width:90%;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.signuptitle{
+	text-align: center;
+	margin-top:30px;
+}
+legend{
+	text-align: left;
+	margin:0px 20px;
+}
+fieldset{
+	margin:2px 20px;
+}
+.logoutbtn{
+	float:right;
+	margin-right: 35px;
+	margin-top: 35px;
+	padding: 10px 20px;
+}
+.tasks{
+	background-image: url("../images/wallpaper.jpg");
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+	height:500px;
+	clear:both;
+	margin-bottom: 4px;
+}
+/******* user menu-content *******/
+.menucontent{
+	position: -webkit-sticky;
+ 	position: sticky;
+  	top: 0;
+	margin-top: 2px;
+	width: 25%;
+	float:left;
+	margin-right: 2%;
+	height:500px;
+	border-right: 4px solid white;
+	
+}
+.redflags{
+	cursor: pointer;
+	margin:5px 0px;
+	margin-left:40px;
+	text-decoration: underline;
+	list-style-type: none;
+	color:white;
+	font-size:20px;
+	font-family: Comic Sans MS;
+
+}
+.redflags:hover{
+	color:white;
+}
+.btnnew{
+	margin:10px 0px;
+	border-radius: 5px;
+	padding:10px 30px;
+	margin-left: 20px;
+}
+.redflagcontent{
+	margin-top:10px;
+	float:left;
+	width:70%;
+	background-color: white;
+	border-radius: 10px;
+}
+.redflagview{
+
+}
+/********* create red flag *************/
+.createredflag{
+	
+}
+
+.inputs{
+	padding:10px 5px;
+	width:80%;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+textarea{
+	height:150px;
+	resize: none;
+}
+.createredflag form{
+	text-align: center;
+}
+.ltitle{
+	float:left;
+	text-align: left;
+	width:100px;
+	margin-left:20px;
+}
+.redflaginput{
+	margin:10px 0px;
+}
+.redflagbtn{
+	padding: 10px 0px;
+	width:95%;
+	margin-bottom: 20px;
+}
+.task-title{
+	margin-top: 4px;
+}
+.red-title{
+	float:left;
+	padding:20px 20px;
+}
+.flag-title{
+	font-family: Bernard MT Condensed;
+	font-size:20px;
+	color:white;
+	text-align: center;
+	padding:20px 0px;
+	float:left;
+	background-color: gray;
+	border-right:4px solid white;
+	width:25%;
+	cursor: pointer;
+	border-radius: 10px;
+	
+}
+.taskcontent{
+	clear:both;
+	border:2px solid white;
+}
+
+.flag-title:hover{
+	background-color: black;
+	color:white;
+}
+.active{
+	background-color: white;
+	color:black
+}
+.ellipsis {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.parent {
+    width: 300px;
+}
+/*---- footer -----*/
+.footer{
+	height:11.5vh;
+	background-color: black;
+	clear:both;
+	border-bottom-right-radius: 20px;
+	border-bottom-left-radius: 20px;
+}
+/* red flaig container*/
+.redflagcontainer{
+	float:left;
+	display:none;
+	width:72%;
+	height:480px;
+	margin-top: 10px;	
+	overflow: hidden;
+	overflow: auto;
+}
+.redflaglist{
+	background-color:white;
+	height:15%;
+	width: 99%;
+	margin:2% 0;
+	border-radius: 10px;
+	overflow: hidden;
+}
+.redtitle{
+	width:90%;
+	font-weight: bold;
+	margin:10px 20px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.reddesc{
+	clear:both;
+	margin: 0px 20px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	cursor:pointer;
+
+}
+.viewredflag{
+	display:none;
+}
+.message{
+	width:72%;
+	background-color:white;
+	margin:2% 0;
+	border-radius: 10px;
+	float:left;
+	margin-bottom: 10px;
+}
+.messagetitle{
+	font-weight: bold;
+	margin: 10px 20px;
+	font-size: 20px;
+	text-align: center;
+	text-decoration: underline;
+	position:sticky;
+}
+.messagecontent{
+	overflow: hidden;
+	overflow: auto;
+	margin:0 20px;
+	height: 280px;
+}
+.changestatus{
+	float:left;
+	background-color: white;
+	border-radius: 10px;
+	width:72%;
+	display:none;
+}
+.status{
+	margin:20px;
+	margin-bottom: 0px;
+}
+.status select{
+	width:100%;
+}
+.btncomfirm{
+	width:100%;
+}
+.flagedit{
+	float:left;
+	background-color: white;
+	border-radius: 10px;
+	width:72%;
+}
+.edit{
+	width:48%;
+	background-color: orange;
+	margin-right:1%;
+	padding: 10px 0px;
+	margin-bottom:10px;
+
+}
+.delete{
+	padding: 10px 0px;
+	margin-left:1%;
+	width:48%;
+	background-color: red;
+	margin-bottom:10px;
+}
